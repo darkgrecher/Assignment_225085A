@@ -1,0 +1,526 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Dancing+Script&family=Macondo&family=Monoton&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Voltaire&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Playfair+Display&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Dancing+Script&family=Macondo&family=Monoton&family=Reggae+One&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Voltaire&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fasthand&family=Playfair+Display&family=Reggae+One&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Macondo&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Macondo&family=Sedgwick+Ave+Display&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Macondo&family=Sedgwick+Ave+Display&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Macondo&family=Monoton&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Voltaire&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Macondo&family=Monoton&family=Sedgwick+Ave+Display&family=Voltaire&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Macondo&family=Monoton&family=Sedgwick+Ave+Display&family=Voltaire&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Creepster&family=Macondo&family=Monoton&family=Sedgwick+Ave+Display&family=Yatra+One&display=swap');
+/*---------------------------------------------------------------------------------------*/
+body{
+    background-color: #18181B;
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.titleSection{
+    float:left;
+    font-family:Dancing Script;   
+}
+/* table td{
+  border: solid ;
+} */
+
+
+.titleSection h1{
+  font-size: 48px;
+  font-family:Reggae One;
+  background: linear-gradient(to right, #fff 20%, #65C7F7 40%, #0ca8f1 60%, #fff 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1s linear infinite;
+  text-align: center;
+}
+
+@keyframes animate {
+  to {
+        background-position: 200% center;
+  }
+}  
+
+.titlePS{
+  font-family:Dancing Script ;
+  margin-top: -30px;
+  font-size: 30px;
+  background: linear-gradient(to right, #fff 20%, #ef7d3f 40%, #ec8200 60%, #fff 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1s linear infinite;
+}
+    
+/*---------------------------------------------------------------------------------------*/
+
+table  {
+  position: relative;
+  border:1px solid black;
+  margin: 10px;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 15px; 
+  border: 0.1px solid #099FFF;
+}
+
+
+.galleryb td{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,.5);
+  background-repeat:no-repeat;
+  background-size:1000px 500px; 
+  color: #ffffff;
+  width: 250px; 
+  height: 180px;
+ 
+}
+
+.rgb{
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  font-size:30px;
+  color: rgb(255, 255, 255);
+  font-family:Macondo ;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+.navigationBar ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    list-style:none;
+    padding: 15px 0;
+    border-radius: 12px;
+    border: 0.1px solid #099FFF;
+    background-color: rgba(0,0,0,.5);
+}
+
+.navigationBar li {
+    font-family: Yatra One;
+    position: relative;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+a{
+    text-decoration: none;
+}
+  
+.navigationBar li:after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px #03e9f4;
+    padding-bottom: 1%;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+
+.navigationBar li:hover:after{
+    transform: scaleX(1);
+}
+
+.navLink{
+    color: white;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    padding: 15px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    border-radius: 5px;
+    border: 0.1px solid #099FFF;
+    background-color: #18181B;
+    box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.banner h1{
+    justify-content: space-evenly;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+footer{
+    position: static;
+    
+    width: 100%;
+    
+}
+
+  footer .content{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+  }
+  .content .top .media-icons{
+    display: flex;
+  }
+  .content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+ .top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #15da03;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #15da03;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #0fbbff;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #0fbbff;
+  background: #fff;
+}
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+
+  footer .bottom-details{
+    width: 100%;
+    
+  }
+  footer .bottom-details .bottom_text{
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .light{
+    font-family: "Poppins", sans-serif;
+    display:contents;
+    text-align: left;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5ms;
+  }
+
+  a:link, a:visited, hover, a:active {
+    text-decoration: none;
+    color: white;
+  }
+
+  .light:hover{
+    color: #ffffff;
+      text-shadow: 0 0 5px #03e9f4,
+          0 0 25px #03e9f4,
+          0 0 50px #03e9f4,
+          0 0 100px #03e9f4;
+  }
+  
+
+  .bottom-details .bottom_text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .bottom-details .bottom_text a{
+    margin-right: 10px;
+  }
+  @media (max-width: 900px) {
+    footer .content .link-boxes{
+      flex-wrap: wrap;
+    }
+    footer .content .link-boxes .input-box{
+      width: 40%;
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 700px){
+    footer{
+      position: relative;
+    }
+    .content .top .logo-details{
+      font-size: 26px;
+    }
+    .content .top .media-icons a{
+      height: 35px;
+      width: 35px;
+      font-size: 14px;
+      line-height: 35px;
+    }
+    footer .content .link-boxes .box{
+      width: calc(100% / 3 - 10px);
+    }
+    footer .content .link-boxes .input-box{
+      width: 60%;
+    }
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a{
+      font-size: 12px;
+    }
+  }
+
+
+
+
+/*Contact us page */
+.pageHeader h1{
+  text-align: center;
+  color: #fff;
+}
+.location{
+  
+  display: flex;
+  
+}
+#I1{
+  border-radius: 25px;
+  width: 400px;
+}
+
+
+
+.formArea {
+  color: #fff;
+  width:630px;
+  font-weight: bolder;
+  
+  
+}
+.formArea td,tr{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.formArea input{
+  width: 95%;
+}
+
+.error{
+  font-style: italic;
+  color: red;
+  font-size:15px;
+  text-align: center;
+}
+
+
+.bimage{
+  opacity: 0.4;
+  position: relative;
+  top: 1000px;;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.bimage img{
+ margin-left: auto;
+ margin-right: auto;
+  width: 100%;
+  height: auto;
+  transform: translateX();
+  box-shadow: 0 0 20px 20px ; 
+}
+
+
+.logo_name{
+  font-size: 40px;
+  font-family:Reggae One;
+  background: linear-gradient(to right, #fff 20%, #65C7F7 40%, #0ca8f1 60%, #fff 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1s linear infinite;
+}
+
+table caption{
+  font-family:Creepster ;
+  animation: myAnim 4s ease 1s infinite normal both;
+  
+
+}
+
+.homeP{
+  animation: myAnim 4s ease 1s infinite normal both;
+  
+  font-size: 20px;
+
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+    
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+/* ---------------------------------------------------------------*/
+.typedtext{
+  background: linear-gradient(to right, #80cbe4 20%, #fa6464 40%, #03ff74 60%, #fff 80%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1s linear infinite;
+}
+/* ---------------------------------------------------------------*/
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+

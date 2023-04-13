@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="website icon" href="images\gamepad.png" type="png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kandy Games</title>
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div>
+
+        <video src="Videos/ezgif-5-361382f56f.mp4" autoplay loop playsinline muted style="height: 113%"></video> 
+        
+        <header>
+            <table style="width: 80%;margin-left: auto;margin-right: auto;box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+                <tr >
+                    <td>&nbsp;</td>
+                    <td style="width: 10%;height: 10px;">
+                        <img src="images/gamepad.png" alt="icon" width="150" height="175" align="left">
+                        
+                    <td style="width: 30%;">
+                        <div class="titleSection">
+                            <h1 style="text-align: center;" >Kandy  Games</h1> 
+                             <p style="text-align: center;" class="titlePS">The decision is yours.....!</p>  
+                        </div>
+                    </td>
+                    </td>
+                    <td>
+                        <div class="navigationBar">
+                            <ul>
+                                <li ><a href="index.html" class="navLink">Home</a></li>
+                                <li ><a href="games.html" class="navLink">Games</a></li>
+                                <li ><a href="contact us.html" class="navLink">Contact us</a></li>
+                                <li ><a href="https://uom.lk/" class="navLink">About Us</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                
+            </table>
+        </header>
+        <BR></BR>
+        <table style="width: 81%;margin-left: auto;margin-right: auto;" >
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><h1 style="text-align: center;font-size: 30PX;font-family: Voltaire;">YOU CAN CONTACT US HERE</h1>
+                    <div class="location"> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <iframe id="I1" allowfullscreen="" loading="lazy" name="I1" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7759952473557!2d79.89972071474251!3d6.797086195087177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24541643ecc67%3A0x2bd2725fcbce650b!2sFaculty%20of%20Information%20Technology%2C%20University%20of%20Moratuwa%2C%20Bandaranayake%20Mawatha%2C%20Moratuwa%2010400!5e0!3m2!1sen!2slk!4v1679474634165!5m2!1sen!2slk" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+                        </iframe>
+                    </div>
+                    <br>
+                    <div style="width: 280px;">
+                        <fieldset style="width:400px;color:#ffffff;border-radius:5px; border-radius: 5px;border: 0.1px solid #099FFF;">
+                            <legend style="font-size: 30px;"><b>Contact Details</b> </legend>
+                            <div ><b>Owner Name :</b> Hashan Rajakaruna</div>
+                            <strong>Adress : </strong>Kandy Games,Kandy,Sri Lanka.<br />
+                            <strong>Postal Code </strong>: 20000<strong></strong><br />
+                            <b>Call  : <a href="callto:+94773543324" style="color:aqua">+94773543324</a><br /></b>
+                            <b>Email : <a href="mailto:hashanrajakaruna733@gmail.com" style="color:aqua">hashanrajakaruna733@gmail.com</a><br /></b>
+                        </fieldset>
+                    </div>
+                    <br>
+                </td>
+                <td>
+                    <div class="formArea" ></div>
+                    <form name="form1" onsubmit="return validateForm()">
+                        <table class="formArea "style="color:#ffffff; border:none ;" >
+                            
+                            <tr>
+                                <td>&nbsp; Name</td>
+                                <td>:
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp; Contact No</td>
+                                <td>:
+                                    <input type="text" id="contactNumber" name="contactNumber">
+                                    <p id="pid1" class="error"></p>
+                                  
+                                </td>
+                            </tr>
+                           
+                            <tr>
+                                <td>&nbsp; Email</td>
+                                <td>:
+                                    <input type="text" id="email" name="email">
+                                    <p id="pid2" class="error"></p>
+                                    
+                                </td>
+                                
+                            </tr>
+                          
+                            <tr>
+                                <td>&nbsp; Message </td>
+                                <td rowspan="2"><textarea name="message" id="" cols="65" rows="10"></textarea></td>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td colspan="2" style="padding-left: 25%;">
+                                    
+
+                                    <button class="glow-on-hover" type="submit" name="submit"  style="font-family:  Voltaire;font-size: 25px;">Send</button>
+                                    <br><br>
+                                    <button class="glow-on-hover" type="reset" style="font-family:  Voltaire;font-size: 25px;" onclick="location.reload()">Clear Data</button>
+                                </td>
+                                
+                            </tr>
+                            
+        
+                        </table>
+                    </form>
+                </div>
+                </td>
+            </tr>
+
+        </table>
+
+      
+    </div>
+
+   <br>
+   <div class="banner" style="width: 80%;">
+    <h1>Registration No: 225085A</h1>
+    <h1>R.E.M.H.M.Rajakaruna</h1>
+   </div>
+
+    <footer style="position: relative;">
+        <div class="content">
+            <div class="top">
+              <div class="logo-details">
+                <img src="images/gamepad.png" alt="icon" width="50" style="margin-bottom: -10px;">
+                <span class="logo_name" >Kandy Games</span>
+              </div>
+              <div class="media-icons">
+                <a href="https://www.facebook.com/hahan.rajakruna?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=94773543324&text&type=phone_number&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                <a href="https://instagram.com/hashan_rajakaruna?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hashan-rajakaruna-758b03257/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:hashanrajakaruna733@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+              </div>
+            </div>
+           
+          </div>
+          <div class="light">
+            <div style="text-align: center;color: rgb(255, 255, 255);">
+                <h1 style="font-size: 25px;">Information Technology & Management <br>Faculty of Information Technology <br><span >University of Moratuwa</span>
+                </h1>
+            </div>
+            <div class="bottom-details" >
+                <div class="bottom_text" style="color: white;">
+                <span class="copyright_text">Copyright © 2023 <a href="#">Kandy Games.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms & condition</a>
+                </span>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
